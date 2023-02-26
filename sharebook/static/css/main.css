@@ -19,30 +19,35 @@ nav ul li a, nav a{
     color: #eeeeee !important;
 }
 
-nav ul li a:hover, nav a:hover{
+nav ul li a:hover{
     background-color: #4ecca3 !important;
 }
 
 #navbar-close span{
     color: var(--main-white)
 }
-
-#navbar-hamburger .icon-bar{
+/* .navbar-toggler-icon{
     background-color: var(--main-white)
-}
+} */
 
-/* jumbotron */
+/* section */
 
-.jumbotron-one{
+.first-section{
     background-color: #4ecca3 !important;
 }
 
-.jumbotron h1, .jumbotron p{
+.section-home h1, .section-home p{
     color: #393e46 !important;
 }
 
-.jumbotron-two{
+.second-section{
     background-color: #eeeeee !important;
+}
+
+/* Form */
+
+.field-info{
+    color: var(--main-white)
 }
 
 /* footer */
