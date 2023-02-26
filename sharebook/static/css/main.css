@@ -10,6 +10,9 @@ body{
     background-color: #232931; ;
 }
 
+p, h1, h2, h3, h4{
+    color:var(--main-white) !important;
+}
 /* navbar */
 
 nav ul li a, nav a{
