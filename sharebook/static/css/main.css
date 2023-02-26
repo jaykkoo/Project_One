@@ -1,0 +1,58 @@
+
+/* root */
+:root{
+    --main-white: #eeeeee;
+}
+
+/* body */
+
+body{
+    background-color: #232931; ;
+}
+
+/* navbar */
+
+nav ul li a, nav a{
+    color: #eeeeee !important;
+}
+
+nav ul li a:hover, nav a:hover{
+    background-color: #4ecca3 !important;
+}
+
+#navbar-close span{
+    color: var(--main-white)
+}
+
+#navbar-hamburger .icon-bar{
+    background-color: var(--main-white)
+}
+
+/* jumbotron */
+
+.jumbotron-one{
+    background-color: #4ecca3 !important;
+}
+
+.jumbotron h1, .jumbotron p{
+    color: #393e46 !important;
+}
+
+.jumbotron-two{
+    background-color: #eeeeee !important;
+}
+
+/* footer */
+
+footer div{
+    color: #eeeeee !important;
+}
+
+footer{
+    position: sticky;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-bottom: 0.2%;
+    width: 100%;
+}
