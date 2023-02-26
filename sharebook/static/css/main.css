@@ -50,12 +50,3 @@ nav ul li a:hover, nav a:hover{
 footer div{
     color: #eeeeee !important;
 }
-
-footer{
-    position: sticky;
-    bottom:0;
-    left:0;
-    right:0;
-    margin-bottom: 0.2%;
-    width: 100%;
-}
