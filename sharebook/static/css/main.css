@@ -2,6 +2,10 @@
 /* root */
 :root{
     --main-white: #eeeeee;
+    --main-green: #4ecca3;
+    --main-body: #232931;
+    --main-gray: #393e46;
+
 }
 
 /* body */
@@ -23,12 +27,18 @@ nav ul li a:hover{
     background-color: #4ecca3 !important;
 }
 
-#navbar-close span{
-    color: var(--main-white)
+.navbar-toggler{
+    border-color: var(--main-white);
 }
-/* .navbar-toggler-icon{
-    background-color: var(--main-white)
-} */
+
+.navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(128, 128, 128, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 
 /* section */
 
@@ -46,8 +56,24 @@ nav ul li a:hover{
 
 /* Form */
 
-.field-info{
+#contactForm label{
     color: var(--main-white)
+}
+
+#contactForm textarea{
+    height: 100px;
+}
+
+#contactForm button:hover{
+    background-color: var(--main-green);
+    color: var(--main-white);
+}
+
+/* button */
+
+.btn-plain{
+    background-color: var(--main-green);
+    color: var(--main-white);
 }
 
 /* footer */
