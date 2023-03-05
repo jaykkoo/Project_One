@@ -19,11 +19,15 @@ p, h1, h2, h3, h4{
 }
 /* navbar */
 
-nav ul li a, nav a{
+nav ul li a, nav a, nav ul li span{
     color: #eeeeee !important;
 }
 
 nav ul li a:hover{
+    background-color: #4ecca3 !important;
+}
+
+nav ul li span:hover{
     background-color: #4ecca3 !important;
 }
 
@@ -52,6 +56,12 @@ nav ul li a:hover{
 
 .second-section{
     background-color: #eeeeee !important;
+}
+
+/* Login Form */
+
+.form-login{
+    background-color: var(--main-body);
 }
 
 /* Form */

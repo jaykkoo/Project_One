@@ -9,3 +9,6 @@ def about_us(request):
 
 def contact_us(request):
     return render(request, "application/home/contact-us.html")
+
+def login(request):
+    return render(request, "application/home/login.html")

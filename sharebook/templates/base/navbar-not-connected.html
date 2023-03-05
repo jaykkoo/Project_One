@@ -1,32 +1,3 @@
- {% comment %} <nav class="navbar navbar-expand-lg"">
-  <div class="container-fluid">
-      <div class="navbar-header">
-        <button id="ChangeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <div id="navbar-hamburger">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </div>
-          <div id="navbar-close" class="hidden">
-            <span class="glyphicon glyphicon-remove"></span>
-          </div>
-        </button>
-        <a class="navbar-brand" href="{% url 'home' %}">Sharebook</a>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="{% url 'home' %}">Accueil</a></li>
-          <li><a href="{% url 'about-us' %}">A propos</a></li>
-          <li><a href="{% url 'contact-us' %}">Contactez-nous</a></li>
-        </ul>
-        
-      </div>
-    </div>
-    
-  </div>
-</nav> {% endcomment %}
-
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="{% url 'home' %}">Sharebook</a>
@@ -50,7 +21,7 @@
             <a href="#" class="nav-link menu-item">S'inscrire</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link menu-item">Se connecter</a>
+            <span class="nav-link menu-item" data-bs-toggle="modal" data-bs-target="#modalLogin">Se connecter</span>
         </li>
       </ul>
     </div>     
